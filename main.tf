@@ -6,6 +6,6 @@ resource "aws_instance" "public_ec2" {
   instance_type   = "t2.micro" 
   key_name = "west"
   tags = {
-    name="public_ec2"
+    name="public"
   }
 }
